@@ -1,0 +1,47 @@
+{
+    "name": "yves-fridelance/php-ssh",
+    "description": "SSH Client",
+    "keywords": [
+        "framework",
+        "data",
+        "connection",
+        "php",
+        "contao"
+    ],
+    "type": "contao-module",
+    "homepage": "http://c-c-a.org/",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Yves Fridelance",
+            "email": "yves@fridelance.ch",
+            "homepage": "http://www.fridelance.ch",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/contao-community-alliance/dc-general/issues",
+        "wiki": "http://de.contaowiki.org/DC_General",
+        "irc": "irc://irc.freenode.org/contao.dev",
+        "source": "https://github.com/contao-community-alliance/dc-general"
+    },
+    "require": {
+        "php": ">=5.3",
+        "contao/core": ">=2.11,<4.0",
+        "contao-community-alliance/composer-plugin": "~2.0",
+        "herzult/php-ssh": "1.1.0"
+    },
+    "require-dev": {
+        "contao-community-alliance/coding-standard": "~1.0"
+    },
+    "conflict": {
+        "contao/core": "3.0.*"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "contao": "system/modules/php-ssh"
+            }
+        }
+    }
+}
