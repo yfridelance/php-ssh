@@ -10,7 +10,7 @@
     ],
     "type": "contao-module",
     "homepage": "http://c-c-a.org/",
-    "license": "LGPL-3.0+",
+    "license": "LGPL-2.0",
     "authors": [
         {
             "name": "Yves Fridelance",
@@ -20,16 +20,13 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/contao-community-alliance/dc-general/issues",
-        "wiki": "http://de.contaowiki.org/DC_General",
-        "irc": "irc://irc.freenode.org/contao.dev",
-        "source": "https://github.com/contao-community-alliance/dc-general"
+        "issues": "https://github.com/yfridelance/php-ssh/issues",
+        "source": "https://github.com/yfridelance/php-ssh"
     },
     "require": {
         "php": ">=5.3",
         "contao/core": ">=2.11,<4.0",
-        "contao-community-alliance/composer-plugin": "~2.0",
-        "herzult/php-ssh": "1.1.0"
+        "contao-community-alliance/composer-plugin": "~2.0"
     },
     "require-dev": {
         "contao-community-alliance/coding-standard": "~1.0"
