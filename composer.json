@@ -34,8 +34,14 @@
         "contao/core": "3.0.*"
     },
     "autoload": {
+<<<<<<< HEAD
         "classmap": [
             "src/Ssh",
+=======
+        "classmap": 
+        [
+            "src/Ssh/",
+>>>>>>> FETCH_HEAD
             "src/Ssh/Authentication"
         ]
     },
