@@ -37,10 +37,15 @@
     "conflict": {
         "contao/core": "3.0.*"
     },
+    "autoload": {
+        "psr-0": {
+            "Ssh": "src/Ssh"
+        }
+    },
     "extra": {
         "contao": {
             "sources": {
-                "contao": "system/modules/php-ssh"
+                "contao": {"system/modules/php-ssh": "system/modules/php-ssh"}
             }
         }
     }
