@@ -26,7 +26,8 @@
         "php": ">=5.3.2",
         "ext-ssh2": "*",
         "contao/core": ">=2.11,<4.0",
-        "contao-community-alliance/composer-plugin": "~2.0"
+        "contao-community-alliance/composer-plugin": "~2.0",
+        "herzult/php-ssh": "~1.0"
     },
     "require-dev": {
         "contao-community-alliance/coding-standard": "~1.0"
