@@ -36,10 +36,7 @@
         "contao/core": "3.0.*"
     },
     "autoload": {
-        "classmap": [
-            "src/Ssh/",
-            "src/Ssh/Authentication/"
-        ]
+        
     },
     "extra": {
         "contao": {
