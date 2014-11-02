@@ -37,7 +37,7 @@
     "extra": {
         "contao": {
             "sources": {
-                "contao": {"system/modules/php-ssh": "system/modules/php-ssh"}
+                "contao": "system/modules/php-ssh"
             }
         }
     }
