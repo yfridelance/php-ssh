@@ -35,9 +35,11 @@
         "contao/core": "3.0.*"
     },
     "autoload": {
-        "psr-0": {
-            "Ssh": "src/Ssh"
-        }
+        "classmap": 
+        [
+            "src/Ssh/",
+            "src/Ssh/Authentication"
+        ]
     },
     "extra": {
         "contao": {
